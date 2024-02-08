@@ -1,0 +1,260 @@
+.navbar{
+    background-color: white;
+    color: brown;
+    border: firebrick;
+    border-radius: 5px solid blue;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.h2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.h3{
+    margin-left: 70%;
+    margin-top: -300px;
+}
+.image2{
+    margin-top: 300px;
+}
+.span{
+    font-size: larger;
+}
+.travf{
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.places{
+    display: flex;
+    justify-content: space-between;
+    
+  
+}
+.image3{
+    padding: 20px;
+    margin-top: 30px;
+   height: 280px;
+   width: 300px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+}
+.image4{
+    padding: 20px;
+    margin-top: 30px;
+    height: 280px;
+    width: 300px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    margin-left: 360px;
+    margin-top: -319px;
+
+}
+.image5{
+    padding: 20px;
+    margin-top: 30px;
+    height: 280px;
+    width: 300px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    margin-left: 720px;
+    margin-top: -319px;
+
+}
+.image6{
+    padding: 20px;
+    margin-top: 30px;
+    height: 280px;
+    width: 300px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    margin-left: 1080px;
+    margin-top: -319px;
+
+}
+.intro{
+    
+    
+    height: 200px;
+    width: 310px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27, 27 , 27 , .5);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.image3:hover{
+    cursor: pointer;
+    }
+.image4:hover{
+    cursor: pointer;
+    }
+.image5:hover{
+    cursor: pointer;
+    }
+.image6:hover{
+cursor: pointer;
+}
+.image3:hover .intro{
+    height: 280px;
+    bottom: 240px;
+    background: white;
+    }
+.image4:hover .intro{
+    height: 280px;
+    bottom: 240px;
+    background: white;
+    }
+.image5:hover .intro{
+    height: 280px;
+    bottom: 240px;
+    background: white;
+    }
+.image6:hover .intro{
+height: 280px;
+bottom: 240px;
+background: white;
+}
+.image3:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.image4:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.image5:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.image6:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.image3:hover img{
+    transform: scale(1,1) rotate(-3deg);
+}
+.image4:hover img{
+    transform: scale(1,1) rotate(-3deg);
+}
+.image5:hover img{
+    transform: scale(1,1) rotate(-3deg);
+}
+.image6:hover img{
+    transform: scale(1,1) rotate(-3deg);
+}
+
+
+.row-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.text{
+    display: flex;
+    margin-left: -100px;
+}
+.container-img{
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.banner__container {
+    background-image: linear-gradient(
+        rgba(35, 71, 103, 0.5),
+        rgba(35, 71, 103, 0.5)
+      ),
+      url("OIP\ \(7\).jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .banner__container .section__container {
+    padding: 10rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    color: var(--extra-light);
+  }
+  
+  .banner__content h2 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  
+  .banner__content button {
+    padding: 0.5rem 2rem;
+    outline: none;
+    border: 2px solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  footer{
+    background-color: var(--text-dark);
+    color: white
+  }
+
+  footer .section_container{
+    display:grid;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  footer h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .social_icons{
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  footer p{
+    font-style: italic;
+  }
+  body{
+    background: url(./Space\ Nebula\ Travel\ \ \ Free\ Background\ Loop.mp4);
+  }
+  .up-arrow{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.up-arrow{
+    background-image: linear-gradient(to bottom right, brown ,rgb(188, 35, 35));
+  margin-top: 30px;
+  float: right ;
+  margin: 10px 20px 50px 0px; 
+}
